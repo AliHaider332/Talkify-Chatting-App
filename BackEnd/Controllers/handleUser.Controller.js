@@ -31,6 +31,7 @@ export const handleRegister = asyncHandler(async (req, res) => {
       httpOnly: true,
       secure: true, // use true only in HTTPS (production)
       maxAge: 2 * 24 * 60 * 60 * 1000, // 2 day
+      sameSite: "none",
     })
     .json({
       success: true,
@@ -58,6 +59,7 @@ export const handleLogin = asyncHandler(async (req, res) => {
       httpOnly: true,
       secure: true, // use true only in HTTPS (production)
       maxAge: 2 * 24 * 60 * 60 * 1000, // 2 day
+      sameSite: "none",
     })
     .json({
       success: true,
