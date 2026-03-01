@@ -6,9 +6,6 @@ Users can chat with each other in real time.
 ⚠️ **Note:** This project is not deployed because most free hosting platforms do not support persistent socket connections (WebSockets).  
 You must run this project locally.
 
----
-
-## 📁 Project Structure
 
 ---
 
@@ -26,7 +23,7 @@ You must run this project locally.
 ### Frontend
 
 - React
-- TypeScript / JavaScript
+- JavaScript
 - Socket.io-client
 
 ### Backend
@@ -56,9 +53,6 @@ CLOUDINARY_API_SECRET
 
 ⚠️ For Vite projects, environment variables must start with `VITE_`.
 
----
-
-## 🚀 How to Run the Project Locally
 
 ### 1️⃣ Clone the repository
 
